@@ -86,27 +86,12 @@ class CancionViewController: UIViewController, AVAudioPlayerDelegate {
         }
         else if shuffleMode == true {
             shuffleCanciones()
-            
-            /*let selCancion = Int(arc4random_uniform(UInt32(listaCanciones.count)))
-            cancionTitulo.text = listaCanciones[selCancion].nombreArtista + " - " + listaCanciones[selCancion].titulo
-            cancionImagen.image = listaCanciones[selCancion].imagen
-            do {
-                try reproductor = AVAudioPlayer(contentsOfURL: sonidoURL!)
-                if !reproductor.playing {
-                    reproductor.play()
-                    play.setImage(UIImage(named: "play_green.png"), forState: UIControlState.Normal)
-                }
-            }
-            catch {
-                print("Error a cargar el archivo de sonido")
-            }*/
         }
     }
     
     func shuffleCanciones() {
         
         let selCancion = Int(arc4random_uniform(UInt32(listaCanciones.count)))
-        print(selCancion)
         cancionTitulo.text = listaCanciones[selCancion].nombreArtista + " - " + listaCanciones[selCancion].titulo
         cancionImagen.image = listaCanciones[selCancion].imagen
         sonidoURL = listaCanciones[selCancion].song
@@ -148,10 +133,6 @@ class CancionViewController: UIViewController, AVAudioPlayerDelegate {
             shuffleMode = true
             //shuffle.setTitle("Shuffle On", forState: UIControlState.Normal)
         }
-        else {
-            print("hghgh")
-        }
-        
     }
     
     @IBAction func cancionVolume(sender: AnyObject) {

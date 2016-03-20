@@ -120,7 +120,7 @@ class CancionesTableViewController: UITableViewController {
             play.selCancion = selCancion
             play.listaCanciones = listaCanciones
             play.shuffleMode = true
-            print(selCancion)
+            //print(selCancion)
         }
         
     }

@@ -155,8 +155,7 @@
                                         <exclude reference="1xn-gy-IgD"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="167" y="452" width="42" height="22"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="1xn-gy-IgD"/>
                                     </mask>
@@ -181,8 +180,7 @@
                                         <exclude reference="Ctt-2o-1JJ"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="136" y="521" width="103" height="30"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Ctt-2o-1JJ"/>
                                     </mask>
