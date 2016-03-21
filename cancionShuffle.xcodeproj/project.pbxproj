@@ -43,7 +43,7 @@
 		8A8CC7C21C9C0DD300D367D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A8CC7C81C9C17C000D367D0 /* CancionesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionesTableViewController.swift; sourceTree = "<group>"; };
 		8A8CC7CA1C9C180600D367D0 /* CancionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionViewController.swift; sourceTree = "<group>"; };
-		8A8CC7DB1C9C42E100D367D0 /* Canciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Canciones.swift; path = /Applications/Xcode.app/Contents/Developer/../../../../Users/koss/Desktop/classes/GitRepos/cancionShuffle/cancionShuffle/Canciones.swift; sourceTree = "<absolute>"; };
+		8A8CC7DB1C9C42E100D367D0 /* Canciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canciones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
